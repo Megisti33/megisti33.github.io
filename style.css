@@ -2,14 +2,20 @@
     --bg-color: #101010;
     --blue: #008080;
     --green: #00A36C;
+    --small_text: #57959c;
+    --big_text: #98d0d6;
+    --gold: #cfb53b;
+    --normal_text: #8e9481;
 }
 
-body{
-    background-color: #213b21;
+.welcomeImageRow{
+    background-image: url("mountains.png");
+    background-repeat: no-repeat;
+    background-position: fixed;
 }
 
-.container{
-    background-color: var(--bg-color);
+.container-fluid{
+    background-color: #030504;
     padding: 50px 100px;
 }
 .card{
@@ -35,6 +41,9 @@ body{
 .card .buyBtn{
     background-color: var(--green);
 }
+.card .buyBtn:hover{
+    background-color: var(--gold);
+}
 
 *{
     font-family: Comic Sans MS;
@@ -59,6 +68,11 @@ span{
 }
 p{
     margin-top: 50px;
+    color: var(--small_text)
+}
+
+span{
+    color: var(--normal_text)
 }
 
 .box{
@@ -66,11 +80,13 @@ p{
     border-radius: 10px;
     padding: 10px;
     min-height: 200px;
+    text-align: center;
 }
 .box header{
     text-align: center;
     font-size: 30px;
     margin-bottom: 15px;
+    color: var(--big_text)
 }
 .box span{
     margin-inline: 10px;
