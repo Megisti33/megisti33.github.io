@@ -1,0 +1,77 @@
+:root{
+    --bg-color: #101010;
+    --blue: #008080;
+    --green: #00A36C;
+}
+
+body{
+    background-color: #213b21;
+}
+
+.container{
+    background-color: var(--bg-color);
+    padding: 50px 100px;
+}
+.card{
+    border-radius: 15px;
+    border: 2px solid var(--blue);
+    transition: all 0.2s ease-in-out;
+    background-color: var(--bg-color);
+    min-height: 450px;
+}
+.card img{
+    border-radius: 15px 15px 0 0;
+}
+
+.card-title a:visited, a:link{
+    text-decoration: none;
+    color: #505050;
+}
+.card-title a:hover, a:active{
+    text-decoration: underline;
+    color: var(--blue);
+    cursor: pointer;
+}
+.card .buyBtn{
+    background-color: var(--green);
+}
+
+*{
+    font-family: Comic Sans MS;
+}
+
+span{
+    font-size: 20px;
+    
+}
+
+.welcomeParagraph{
+    font-size: 80px;
+}
+.missionParagraph{
+    font-size: 70px;
+}
+.exploreParagraph{
+    font-size: 60px;
+}
+.chooseOurShopParagraph{
+    font-size: 50px;
+}
+p{
+    margin-top: 50px;
+}
+
+.box{
+    border: 1px solid #505050;
+    border-radius: 10px;
+    padding: 10px;
+    min-height: 200px;
+}
+.box header{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.box span{
+    margin-inline: 10px;
+}
